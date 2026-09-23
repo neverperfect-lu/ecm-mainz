@@ -53,7 +53,7 @@
       </a>
       <div data-desktop-only="" style="display: flex; align-items: center; gap: 36px;">
         <a href="ueber-uns.html" style="font-size: 14px; font-weight: 500; color: #FFFFFF; letter-spacing: 0.02em;" style-hover="color: #D8ADF9;">Über uns</a>
-        <a href="#unsere-formate" style="font-size: 14px; font-weight: 500; color: #FFFFFF; letter-spacing: 0.02em;" style-hover="color: #D8ADF9;">Unsere Formate</a>
+        <a href="formate.html" style="font-size: 14px; font-weight: 500; color: #FFFFFF; letter-spacing: 0.02em;" style-hover="color: #D8ADF9;">Unsere Formate</a>
         <a href="#summer-school" style="font-size: 14px; font-weight: 500; color: #FFFFFF; letter-spacing: 0.02em;" style-hover="color: #D8ADF9;">Summer School</a>
         <a href="#mitglied-werden" style="font-size: 14px; font-weight: 600; color: #FFFFFF; background: #5F0082; padding: 12px 24px; border-radius: 4px; letter-spacing: 0.02em; transition: background 200ms ease;" style-hover="background: #6D14B3; color: #FFFFFF;">Mitglied werden</a>
       </div>
@@ -66,7 +66,7 @@
     <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
       <div style="display: flex; flex-direction: column; gap: 4px; padding: 8px clamp(20px, 5vw, 32px) 24px; background: #000000; border-top: 1px solid #373737;">
         <a href="ueber-uns.html" onClick="{{ closeMenu }}" style="padding: 14px 0; font-size: 16px; font-weight: 500; color: #FFFFFF;">Über uns</a>
-        <a href="#unsere-formate" onClick="{{ closeMenu }}" style="padding: 14px 0; font-size: 16px; font-weight: 500; color: #FFFFFF;">Unsere Formate</a>
+        <a href="formate.html" onClick="{{ closeMenu }}" style="padding: 14px 0; font-size: 16px; font-weight: 500; color: #FFFFFF;">Unsere Formate</a>
         <a href="#summer-school" onClick="{{ closeMenu }}" style="padding: 14px 0; font-size: 16px; font-weight: 500; color: #FFFFFF;">Summer School</a>
         <a href="#mitglied-werden" onClick="{{ closeMenu }}" style="margin-top: 8px; padding: 16px 0; text-align: center; font-size: 16px; font-weight: 600; color: #FFFFFF; background: #5F0082; border-radius: 4px;">Mitglied werden</a>
       </div>
@@ -82,7 +82,7 @@
       <p data-reveal="" style="margin: clamp(22px, 4vw, 32px) 0 0; font-size: clamp(16px, 3.5vw, 20px); font-weight: 300; line-height: 1.6; color: #D9D9D9; max-width: 56ch; text-wrap: pretty; opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) 160ms forwards; animation-play-state: paused;">Der ECM ist eine studentische Initiative der Johannes Gutenberg-Universität Mainz. Wir veranstalten und organisieren Events für Mitglieder und Interessierte. In unseren Formaten lernen Studierende Startups näher kennen, finden Freunde und sammeln wertvolle Erfahrung für jeden Karriereweg.</p>
       <div data-reveal="" data-hero-cta="" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: clamp(32px, 6vw, 44px); opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) 240ms forwards; animation-play-state: paused;">
         <a href="#mitglied-werden" style="padding: 17px clamp(26px, 7vw, 40px); background: #5F0082; color: #FFFFFF; font-size: 15px; font-weight: 600; letter-spacing: 0.04em; border-radius: 4px; transition: background 200ms ease, transform 200ms ease;" style-hover="background: #6D14B3; color: #FFFFFF; transform: translateY(-2px);">Mitglied werden</a>
-        <a href="#unsere-formate" style="padding: 17px clamp(26px, 7vw, 40px); background: transparent; color: #FFFFFF; font-size: 15px; font-weight: 600; letter-spacing: 0.04em; border: 1px solid rgba(255,255,255,0.4); border-radius: 4px; transition: border-color 200ms ease, background 200ms ease;" style-hover="border-color: #D8ADF9; background: rgba(216,173,249,0.08); color: #FFFFFF;">Unsere Formate</a>
+        <a href="formate.html" style="padding: 17px clamp(26px, 7vw, 40px); background: transparent; color: #FFFFFF; font-size: 15px; font-weight: 600; letter-spacing: 0.04em; border: 1px solid rgba(255,255,255,0.4); border-radius: 4px; transition: border-color 200ms ease, background 200ms ease;" style-hover="border-color: #D8ADF9; background: rgba(216,173,249,0.08); color: #FFFFFF;">Unsere Formate</a>
       </div>
       <div data-reveal="" style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; gap: clamp(26px, 6vw, 40px) clamp(26px, 9vw, 96px); margin-top: clamp(52px, 10vw, 88px); padding-top: clamp(26px, 5vw, 40px); border-top: 1px solid #373737; opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) 320ms forwards; animation-play-state: paused;">
         <sc-for list="{{ heroStats }}" as="stat" hint-placeholder-count="3">
@@ -231,7 +231,7 @@
       </a>
       <div style="display: flex; flex-wrap: wrap; gap: 12px 28px;">
         <a href="ueber-uns.html" style="font-size: 14px; font-weight: 400; color: #D9D9D9;">Über uns</a>
-        <a href="#unsere-formate" style="font-size: 14px; font-weight: 400; color: #D9D9D9;">Formate</a>
+        <a href="formate.html" style="font-size: 14px; font-weight: 400; color: #D9D9D9;">Formate</a>
         <a href="#summer-school" style="font-size: 14px; font-weight: 400; color: #D9D9D9;">Summer School</a>
         <a href="#mitglied-werden" style="font-size: 14px; font-weight: 400; color: #D9D9D9;">Mitglied werden</a>
       </div>
