@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,9 +10,7 @@
 <helmet>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Entrepreneurs Club Mainz — Where Bold Ideas Become Real Startups</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800;900&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link href="fonts/fonts.css" rel="stylesheet">
 <style>
   html { scroll-padding-top: 88px; }
   body { margin: 0; background: #000000; font-family: 'Poppins', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
@@ -22,7 +20,7 @@
   @keyframes ecmReveal { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
   @keyframes ecmMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
   img { max-width: 100%; }
-  h1, h2, h3 { overflow-wrap: break-word; }
+  h1, h2, h3 { overflow-wrap: normal; word-break: normal; hyphens: manual; }
   [data-mobile-only] { display: none !important; }
   @media (max-width: 880px) {
     [data-desktop-only] { display: none !important; }
@@ -78,7 +76,7 @@
     <div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(217,217,217,0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(217,217,217,0.045) 1px, transparent 1px); background-size: 96px 96px; mask-image: radial-gradient(ellipse at 50% 40%, #000 0%, transparent 75%); pointer-events: none;"></div>
     <div style="position: relative; max-width: 1280px; margin: 0 auto; width: 100%;">
       <p data-reveal="" style="margin: 0 0 28px; font-size: 12px; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: #D8ADF9; opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) forwards; animation-play-state: paused;">Entrepreneurs Club Mainz e.V.</p>
-      <h1 data-reveal="" style="margin: 0; font-family: 'League Spartan', sans-serif; font-weight: 800; text-transform: uppercase; font-size: clamp(29px, 8.4vw, 124px); line-height: 0.95; letter-spacing: -0.01em; color: #FFFFFF; max-width: 15ch; text-wrap: balance; opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) 80ms forwards; animation-play-state: paused;">Mainz' largest student-run entrepreneurship initiative.</h1>
+      <h1 data-reveal="" style="margin: 0; font-family: 'League Spartan', sans-serif; font-weight: 800; text-transform: uppercase; font-size: clamp(26px, 8.4vw, 124px); line-height: 0.95; letter-spacing: -0.01em; color: #FFFFFF; max-width: 10.5em; text-wrap: balance; opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) 80ms forwards; animation-play-state: paused;" lang="en">Mainz' largest student-run entrepreneurship initiative.</h1>
       <p data-reveal="" style="margin: clamp(22px, 4vw, 32px) 0 0; font-size: clamp(16px, 3.5vw, 20px); font-weight: 300; line-height: 1.6; color: #D9D9D9; max-width: 56ch; text-wrap: pretty; opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) 160ms forwards; animation-play-state: paused;">Der ECM ist eine studentische Initiative der Johannes Gutenberg-Universität Mainz. Wir veranstalten und organisieren Events für Mitglieder und Interessierte. In unseren Formaten lernen Studierende Startups näher kennen, finden Freunde und sammeln wertvolle Erfahrung für jeden Karriereweg.</p>
       <div data-reveal="" data-hero-cta="" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: clamp(32px, 6vw, 44px); opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) 240ms forwards; animation-play-state: paused;">
         <a href="#mitglied-werden" style="padding: 17px clamp(26px, 7vw, 40px); background: #5F0082; color: #FFFFFF; font-size: 15px; font-weight: 600; letter-spacing: 0.04em; border-radius: 4px; transition: background 200ms ease, transform 200ms ease;" style-hover="background: #6D14B3; color: #FFFFFF; transform: translateY(-2px);">Mitglied werden</a>
@@ -105,9 +103,9 @@
 
   <section id="wer-wir-sind" style="background: #FFFFFF; color: #000000; padding: clamp(70px, 13vw, 130px) clamp(20px, 5vw, 32px);">
     <div style="max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(330px, 100%), 1fr)); gap: clamp(38px, 6vw, 72px); align-items: center;">
-      <div data-reveal="" style="opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) forwards; animation-play-state: paused;">
+      <div data-reveal="" style="container-type: inline-size; opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) forwards; animation-play-state: paused;">
         <p style="margin: 0 0 20px; font-size: 12px; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: #5F0082;">Über uns</p>
-        <h2 style="margin: 0; font-family: 'League Spartan', sans-serif; font-weight: 800; text-transform: uppercase; font-size: clamp(27px, 6.4vw, 60px); line-height: 1.0; letter-spacing: -0.005em; color: #000000; hyphens: auto; text-wrap: balance;">Gründergeist trifft Interdisziplinarität.</h2>
+        <h2 style="margin: 0; font-family: 'League Spartan', sans-serif; font-weight: 800; text-transform: uppercase; font-size: clamp(25px, 6.4vw, 60px); font-size: clamp(22px, 8.6cqi, 60px); line-height: 1.0; letter-spacing: -0.005em; color: #000000; hyphens: manual; text-wrap: balance;">Gründergeist trifft Inter&shy;disziplinarität.</h2>
         <p style="margin: 24px 0 0; font-size: clamp(15px, 3.2vw, 17px); font-weight: 300; line-height: 1.7; color: #373737; max-width: 58ch; text-wrap: pretty;">Unser wichtigstes Ziel ist es, eine echte Community zu schaffen und Menschen zusammenzubringen, die sich auf dem Campus sonst nie über den Weg laufen würden. Studis aus der Wissenschaft lernen wie sie ihre eigene Idee an den Markt bringt. Aus Zufallsgesprächen zwischen WiWis und Informatikern entstehen die besten Ideen. Unsere Events sind für alle Studiengänge ausgelegt und profitieren von der Vielseitigkeit.</p>
       </div>
       <div data-reveal="" style="position: relative; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; background: #480062; opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) 120ms forwards; animation-play-state: paused;">
@@ -118,7 +116,7 @@
       <sc-for list="{{ pillars }}" as="p" hint-placeholder-count="3">
         <div data-reveal="" style="padding: clamp(26px, 5vw, 36px) clamp(22px, 5vw, 32px); border: 1px solid #D9D9D9; border-radius: 6px; background: #FFFFFF; transition: border-color 220ms ease, box-shadow 220ms ease, transform 220ms ease; opacity: 0; animation: ecmReveal 700ms cubic-bezier(0.22,0.61,0.36,1) forwards; animation-play-state: paused;" style-hover="border-color: #D8ADF9; box-shadow: 0 14px 40px rgba(95,0,130,0.16); transform: translateY(-4px);">
           <span style="font-size: 28px; line-height: 1; display: block;">{{ p.icon }}</span>
-          <h3 style="margin: 20px 0 10px; font-family: 'League Spartan', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 21px; letter-spacing: 0.02em; color: #000000;">{{ p.title }}</h3>
+          <h3 style="margin: 20px 0 10px; font-family: 'League Spartan', sans-serif; font-weight: 700; text-transform: uppercase; font-size: clamp(18px, 6vw, 21px); letter-spacing: 0.02em; color: #000000;">{{ p.title }}</h3>
           <p style="margin: 0; font-size: 15px; font-weight: 300; line-height: 1.6; color: #373737;">{{ p.body }}</p>
         </div>
       </sc-for>
@@ -239,16 +237,16 @@
         <a href="https://instagram.com/ecm_mainz" aria-label="Instagram" style="width: 44px; height: 44px; border: 1px solid #373737; border-radius: 4px; display: flex; align-items: center; justify-content: center; transition: border-color 200ms ease;" style-hover="border-color: #D8ADF9;">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D9D9D9" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="1.1" fill="#D9D9D9" stroke="none"></circle></svg>
         </a>
-        <a href="https://linkedin.com" aria-label="LinkedIn" style="width: 44px; height: 44px; border: 1px solid #373737; border-radius: 4px; display: flex; align-items: center; justify-content: center; transition: border-color 200ms ease;" style-hover="border-color: #D8ADF9;">
+        <a href="https://www.linkedin.com/company/entrepreneurs-club-mainz" aria-label="LinkedIn" style="width: 44px; height: 44px; border: 1px solid #373737; border-radius: 4px; display: flex; align-items: center; justify-content: center; transition: border-color 200ms ease;" style-hover="border-color: #D8ADF9;">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="#D9D9D9"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9.5 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21h-4v-5.6c0-1.34-.03-3.06-1.9-3.06-1.9 0-2.2 1.45-2.2 2.96V21h-4z"></path></svg>
         </a>
       </div>
     </div>
     <div style="max-width: 1280px; margin: 48px auto 0; padding-top: 24px; border-top: 1px solid #1c1c1c; display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center; justify-content: space-between;">
-      <span style="font-size: 12px; font-weight: 300; color: #6b6b6b;">© 2025 Entrepreneurs Club Mainz e.V. — Johannes Gutenberg-Universität Mainz</span>
+      <span style="font-size: 12px; font-weight: 300; color: #6b6b6b;">Entrepreneurs Club Mainz e.V., gegründet 2023 an der Johannes Gutenberg-Universität Mainz</span>
       <span style="display: flex; gap: 24px;">
-        <a href="#top" style="font-size: 12px; font-weight: 300; color: #6b6b6b;">Impressum</a>
-        <a href="#top" style="font-size: 12px; font-weight: 300; color: #6b6b6b;">Datenschutz</a>
+        <a href="impressum.html" style="font-size: 12px; font-weight: 300; color: #6b6b6b;">Impressum</a>
+        <a href="datenschutz.html" style="font-size: 12px; font-weight: 300; color: #6b6b6b;">Datenschutz</a>
       </span>
     </div>
   </footer>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,9 +10,7 @@
 <helmet>
 <meta charset="utf-8">
 <title>Über uns — Entrepreneurs Club Mainz</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link href="fonts/fonts.css" rel="stylesheet">
 <style>
   html { scroll-behavior: smooth; scroll-padding-top: 88px; }
   body { margin: 0; background: #000; font-family: 'Poppins', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
@@ -21,13 +19,14 @@
   a:hover { color: #6D14B3; }
   img[src=""] { display: none; }
   img { max-width: 100%; }
-  h1, h2, h3 { overflow-wrap: break-word; }
+  h1, h2, h3 { overflow-wrap: normal; word-break: normal; hyphens: manual; }
   [data-mobile-only] { display: none !important; }
   @media (max-width: 880px) {
     [data-desktop-only] { display: none !important; }
     [data-mobile-only] { display: flex !important; }
   }
   @keyframes ecmBounce { 0%, 100% { transform: translateY(0); opacity: .55; } 50% { transform: translateY(10px); opacity: 1; } }
+  @media (max-width: 480px) { .ct-row { flex-direction: column; } .ct-row > span { min-width: 0 !important; } }
 </style>
 </helmet>
 <div style="background:#fff;overflow-x:hidden">
@@ -92,7 +91,7 @@
 
     <div data-period="p1" style="padding-top:clamp(38px,5vw,54px)">
       <p style="font-family:'Poppins',sans-serif;font-size:13px;color:#8E8E8E;margin:0 0 clamp(34px,4vw,48px)">Gewählt auf der 8. Mitgliederversammlung am 01. Juli 2026</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:clamp(30px,3.6vw,52px)">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:clamp(30px,3.6vw,52px)">
 
         <article data-card="" style="transition:transform .35s ease, box-shadow .35s ease">
           <div style="position:relative;width:100%;aspect-ratio:4/5;min-height:380px;overflow:hidden;background:linear-gradient(150deg,#480062 0%,#6D14B3 100%);display:flex;align-items:center;justify-content:center">
@@ -191,13 +190,13 @@
     <div data-period="p2" style="display:none;padding-top:clamp(38px,5vw,54px)">
       <p style="font-family:'Poppins',sans-serif;font-size:13px;color:#8E8E8E;margin:0 0 clamp(30px,4vw,42px)">Gewählt auf der 7. Mitgliederversammlung am 21. Januar 2026</p>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Lukas Achenbach</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">President</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Lukas Exner</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vice-President</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Anja Micic</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">MD Finance &amp; Legal</p></div>
       </div>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Erweiterter Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Julius Faust</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">MD People &amp; Culture</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Melissa Jansawat</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">MD Communications</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Joshua Ruthard</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">MD Partnerships</p></div>
@@ -208,13 +207,13 @@
     <div data-period="p3" style="display:none;padding-top:clamp(38px,5vw,54px)">
       <p style="font-family:'Poppins',sans-serif;font-size:13px;color:#8E8E8E;margin:0 0 clamp(30px,4vw,42px)">Gewählt auf der 6. Mitgliederversammlung am 09. Juli 2025</p>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Lukas Achenbach</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">President</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Lukas Exner</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vice-President</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Anja Micic</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">MD Finance &amp; Legal</p></div>
       </div>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Erweiterter Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Julius Faust</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">MD People &amp; Culture</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Maximilian Engelhardt</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">MD Communications</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Joshua Ruthard</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">MD Partnerships</p></div>
@@ -224,13 +223,13 @@
     <div data-period="p3b" style="display:none;padding-top:clamp(38px,5vw,54px)">
       <p style="font-family:'Poppins',sans-serif;font-size:13px;color:#8E8E8E;margin:0 0 clamp(30px,4vw,42px)">Gewählt auf der 5. Mitgliederversammlung am 20. Januar 2025</p>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Yann Fischer</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vorsitzender</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Darian Keßler</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Stellv. Vorsitzender</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Lukas Achenbach</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vorstand Finanzen &amp; Recht</p></div>
       </div>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Erweiterter Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Maximilian Engelhardt</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Marketing</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Joshua Ruthard</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Partnerships</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Fiona Mettke</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Event Management</p></div>
@@ -242,13 +241,13 @@
     <div data-period="p4" style="display:none;padding-top:clamp(38px,5vw,54px)">
       <p style="font-family:'Poppins',sans-serif;font-size:13px;color:#8E8E8E;margin:0 0 clamp(30px,4vw,42px)">Gewählt auf der 4. Mitgliederversammlung am 04. Juli 2024</p>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Yann Fischer</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vorsitzender</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Darian Kessler</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Stellv. Vorsitzender</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">David Rauen</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vorstand Finanzen &amp; Recht</p></div>
       </div>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Erweiterter Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Ivan Darmograi</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Marketing</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Lukas Achenbach</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Partnerships</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Fiona Mettke</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Event Management</p></div>
@@ -260,13 +259,13 @@
     <div data-period="p5" style="display:none;padding-top:clamp(38px,5vw,54px)">
       <p style="font-family:'Poppins',sans-serif;font-size:13px;color:#8E8E8E;margin:0 0 clamp(30px,4vw,42px)">Gewählt auf der 3. Mitgliederversammlung am 11. Januar 2024</p>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Yann Fischer</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vorsitzender</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Henrik Mauelshagen</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Stellv. Vorsitzender</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">David Rauen</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vorstand Finanzen &amp; Recht</p></div>
       </div>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Erweiterter Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Niklas Hinrichs</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Incubator</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Ivan Darmograi</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Marketing</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Darian Kessler</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Partnerships</p></div>
@@ -279,13 +278,13 @@
     <div data-period="p6" style="display:none;padding-top:clamp(38px,5vw,54px)">
       <p style="font-family:'Poppins',sans-serif;font-size:13px;color:#8E8E8E;margin:0 0 clamp(30px,4vw,42px)">Gewählt auf der Gründungsversammlung am 23. Mai 2023</p>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Gründungsvorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Jan Fabig</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vorsitzender</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Jonas Benjamin</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Stellv. Vorsitzender</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">David Rauen</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Vorstand Finanzen &amp; Recht</p></div>
       </div>
       <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#5F0082;margin:0 0 20px">Erweiterter Vorstand</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px 32px;margin-bottom:44px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:2px 32px;margin-bottom:44px">
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Felipe Rupp Tyla</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Venture Accelerator</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Nele Zoe Mauelshagen</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Marketing</p></div>
         <div style="padding:16px 0;border-top:1px solid #D9D9D9"><p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:19px;color:#000;margin:0 0 4px">Atul Bedekar</p><p style="font-family:'Poppins',sans-serif;font-size:13px;color:#373737;margin:0">Team Lead Partnerships</p></div>
@@ -305,7 +304,7 @@
     <p data-reveal="" style="font-family:'Poppins',sans-serif;font-weight:300;font-size:17px;line-height:1.75;color:#D9D9D9;max-width:720px;margin:0 0 clamp(48px,6vw,72px);text-wrap:pretty">Der ECM ist nicht allein. Wir arbeiten mit dem Startup-Inkubator LAUNCH Rhein-Main, dem Ökosystem Futury und den anderen studentischen Gründerinitiativen der Region zusammen. Jede Organisation erreicht dabei eine andere Zielgruppe — nebeneinander, nicht übereinander.</p>
     <p data-reveal="" style="font-family:'Poppins',sans-serif;font-weight:300;font-size:17px;line-height:1.75;color:#D9D9D9;max-width:720px;margin:0 0 clamp(48px,6vw,72px);text-wrap:pretty">Der Entrepreneurs Club Mainz verbindet Studierende aus 25+ Fachrichtungen an der JGU, die Unternehmertum, Startups und Innovation begeistert. Workshops, Founder Talks und die ECM Summer School — alles ehrenamtlich organisiert.</p>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(20px,2.4vw,28px)">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:clamp(20px,2.4vw,28px)">
 
       <div data-org="" style="background:#0C0C0C;border:1px solid #262626;padding:clamp(28px,3vw,38px);display:flex;flex-direction:column;gap:22px">
         <div style="display:flex;flex-direction:column;gap:8px">
@@ -372,13 +371,13 @@
   <div style="max-width:1100px;margin:0 auto">
     <h2 data-reveal="" style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:clamp(34px,5.4vw,68px);line-height:1;letter-spacing:-.02em;color:#fff;margin:0 0 20px">Fragen? Meld dich.</h2>
     <p data-reveal="" style="font-family:'Poppins',sans-serif;font-weight:300;font-size:18px;line-height:1.7;color:#E9D6FA;max-width:600px;margin:0 0 clamp(50px,6vw,78px);text-wrap:pretty">Ob du Mitglied werden, eine Kooperation ansprechen oder einfach mehr erfahren möchtest.</p>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(36px,5vw,72px)">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:clamp(36px,5vw,72px)">
       <div data-reveal="">
         <p style="font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#D8ADF9;margin:0 0 26px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.25)">Direktkontakt</p>
         <div style="display:flex;flex-direction:column;gap:18px">
-          <a href="mailto:info@ecm-mainz.de" style="font-family:'Poppins',sans-serif;font-size:17px;color:#fff;display:flex;gap:14px" style-hover="color:#D8ADF9"><span style="color:#D8ADF9;font-size:15px;min-width:96px">Allgemein</span>info@ecm-mainz.de</a>
-          <a href="https://instagram.com/ecm_mainz" style="font-family:'Poppins',sans-serif;font-size:17px;color:#fff;display:flex;gap:14px" style-hover="color:#D8ADF9"><span style="color: rgb(216, 173, 249); font-size: 15px; min-width: 96px;">Instagram</span>@ecm_mainz</a>
-          <a href="https://www.linkedin.com/company/entrepreneurs-club-mainz" style="font-family:'Poppins',sans-serif;font-size:17px;color:#fff;display:flex;gap:14px" style-hover="color:#D8ADF9"><span style="color:#D8ADF9;font-size:15px;min-width:96px">LinkedIn</span>Entrepreneurs Club Mainz</a>
+          <a class="ct-row" href="mailto:info@ecm-mainz.de" style="font-family:'Poppins',sans-serif;font-size:17px;color:#fff;display:flex;flex-wrap:wrap;column-gap:14px;row-gap:2px" style-hover="color:#D8ADF9"><span style="color:#D8ADF9;font-size:15px;min-width:96px">Allgemein</span>info@ecm-mainz.de</a>
+          <a class="ct-row" href="https://instagram.com/ecm_mainz" style="font-family:'Poppins',sans-serif;font-size:17px;color:#fff;display:flex;flex-wrap:wrap;column-gap:14px;row-gap:2px" style-hover="color:#D8ADF9"><span style="color: rgb(216, 173, 249); font-size: 15px; min-width: 96px;">Instagram</span>@ecm_mainz</a>
+          <a class="ct-row" href="https://www.linkedin.com/company/entrepreneurs-club-mainz" style="font-family:'Poppins',sans-serif;font-size:17px;color:#fff;display:flex;flex-wrap:wrap;column-gap:14px;row-gap:2px" style-hover="color:#D8ADF9"><span style="color:#D8ADF9;font-size:15px;min-width:96px">LinkedIn</span>Entrepreneurs Club Mainz</a>
         </div>
       </div>
       <div data-reveal="">
@@ -415,7 +414,7 @@
         <a href="index.html#mitglied-werden" style="font-family:'Poppins',sans-serif;font-size:14px;color:#D9D9D9" style-hover="color:#D8ADF9">Mitglied werden</a>
       </nav>
       <div style="display:flex;gap:14px">
-        <a href="https://instagram.com/ecm.uni.mainz" aria-label="Instagram" style="width:38px;height:38px;border:1px solid #373737;display:flex;align-items:center;justify-content:center" style-hover="border-color:#6D14B3">
+        <a href="https://instagram.com/ecm_mainz" aria-label="Instagram" style="width:38px;height:38px;border:1px solid #373737;display:flex;align-items:center;justify-content:center" style-hover="border-color:#6D14B3">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#D9D9D9" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="1.1" fill="#D9D9D9" stroke="none"></circle></svg>
         </a>
         <a href="https://www.linkedin.com/company/entrepreneurs-club-mainz" aria-label="LinkedIn" style="width:38px;height:38px;border:1px solid #373737;display:flex;align-items:center;justify-content:center" style-hover="border-color:#6D14B3">
@@ -424,7 +423,7 @@
       </div>
     </div>
     <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px;padding-top:26px">
-      <p style="font-family:'Poppins',sans-serif;font-size:13px;font-weight:300;color:#8E8E8E;margin:0">© 2025 Entrepreneurs Club Mainz e.V. — Johannes Gutenberg-Universität Mainz</p>
+      <p style="font-family:'Poppins',sans-serif;font-size:13px;font-weight:300;color:#8E8E8E;margin:0">Entrepreneurs Club Mainz e.V., gegründet 2023 an der Johannes Gutenberg-Universität Mainz</p>
       <div style="display:flex;gap:22px">
         <a href="impressum.html" style="font-family:'Poppins',sans-serif;font-size:13px;color:#8E8E8E" style-hover="color:#D8ADF9">Impressum</a>
         <a href="datenschutz.html" style="font-family:'Poppins',sans-serif;font-size:13px;color:#8E8E8E" style-hover="color:#D8ADF9">Datenschutz</a>
